@@ -1,0 +1,27 @@
+[
+    {
+        "no": 1,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) There is a basil romano scone on the top display.\n- (2) One of the three clerks is wearing a white hat.\n- (3) The red bean bread is priced at 3,800 won.\n- (4) The sweet potato cream cheese pie cheesecake costs 4,000 won.",
+        "img": "mangwon_bakery.jpg"
+    },
+    {
+        "no": 2,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) Many people are working using laptops.\n- (2) The event venue is a quiet space like a library.\n- (3) A refresh zone is set up in the middle.\n- (4) The event name is 'DIVE 2024 IN BUSAN.'",
+        "img": "busan_dive.jpg"
+    },
+    {
+        "no": 3,
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) People are ordering drinks inside the cafe.  \n- (2) The floor is tiled in white and red colors.  \n- (3) There are tables beside the counter with people sitting.  \n- (4) Under the yellow wall, there are coffee machines and cups.",
+        "img": "local_stitch_terrarosa.jpg"
+    },
+    {
+        "no": 4,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) There are drinks placed on the tables.\n- (2) Many people are sitting and talking at the seats.\n- (3) The floor is made of wooden parquet.\n- (4) Natural light comes in well through the large windows.",
+        "img": "seolleung_terrarosa.jpg"
+    },
+    {
+        "no": 5,
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) There is a large yellow sculpture in the foreground.  \n- (2) One of the buildings has a sign that says 'Local Stitch.'  \n- (3) The place shown in the photo is mainly a residential area.  \n- (4) There is a café called 'TERMOSIA COFFEE.'",
+        "img": "local_stitch.jpg"
+    }
+]
