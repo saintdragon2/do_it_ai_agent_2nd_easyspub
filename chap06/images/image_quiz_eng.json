@@ -1,27 +1,27 @@
 [
     {
         "no": 1,
-        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) There is a basil romano scone on the top display.\n- (2) One of the three clerks is wearing a white hat.\n- (3) The red bean bread is priced at 3,800 won.\n- (4) The sweet potato cream cheese pie cheesecake costs 4,000 won.",
-        "img": "mangwon_bakery.jpg"
-    },
-    {
-        "no": 2,
-        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) Many people are working using laptops.\n- (2) The event venue is a quiet space like a library.\n- (3) A refresh zone is set up in the middle.\n- (4) The event name is 'DIVE 2024 IN BUSAN.'",
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) A large event is taking place in an indoor venue.  \n- (2) Many people are sitting at tables and using laptops.  \n- (3) Large screens and information booths have been set up at the front of the venue.  \n- (4) Most people are waiting in line outdoors.",
         "img": "busan_dive.jpg"
     },
     {
+        "no": 2,
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) An outdoor commercial space has been created between the buildings.  \n- (2) There is a large yellow sculpture in the foreground on the left.  \n- (3) The words “Local Stitch” can be seen on the exterior of a building.  \n- (4) A large grassy lawn stretches across the center of the image.",
+        "img": "local_stitch.jpg"
+    },
+    {
         "no": 3,
-        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) People are ordering drinks inside the cafe.  \n- (2) The floor is tiled in white and red colors.  \n- (3) There are tables beside the counter with people sitting.  \n- (4) Under the yellow wall, there are coffee machines and cups.",
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) There is a counter where customers can order drinks.  \n- (2) Part of the café wall is painted bright yellow.  \n- (3) There are several tables and chairs inside the café.  \n- (4) Customers are drinking beverages on an outdoor terrace.",
         "img": "local_stitch_terrarosa.jpg"
     },
     {
         "no": 4,
-        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) There are drinks placed on the tables.\n- (2) Many people are sitting and talking at the seats.\n- (3) The floor is made of wooden parquet.\n- (4) Natural light comes in well through the large windows.",
-        "img": "seolleung_terrarosa.jpg"
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) Various types of bread are displayed in a glass case.  \n- (2) The employees behind the display case are wearing white caps.  \n- (3) Signs showing the prices are placed next to the bread.  \n- (4) Fresh fruits and vegetables are mainly displayed in the case.",
+        "img": "mangwon_bakery.jpg"
     },
     {
         "no": 5,
-        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) There is a large yellow sculpture in the foreground.  \n- (2) One of the buildings has a sign that says 'Local Stitch.'  \n- (3) The place shown in the photo is mainly a residential area.  \n- (4) There is a café called 'TERMOSIA COFFEE.'",
-        "img": "local_stitch.jpg"
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) It shows the interior of a spacious restaurant.  \n- (2) People are seated at several tables.  \n- (3) There are large windows along one wall.  \n- (4) All of the tables are unoccupied.",
+        "img": "seolleung_terrarosa.jpg"
     }
 ]
