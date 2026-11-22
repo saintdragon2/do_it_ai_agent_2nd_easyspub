@@ -219,3 +219,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .playwright-mcp/*.yml
+chap16/sec03/frontend/node_modules/*

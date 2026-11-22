@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LangGraph와 FastAPI로 만든 도시 정책·문화 AI 챗봇"
+    />
+    <title>도시 정책·문화 AI 도우미</title>
+  </head>
+  <body class="min-h-screen bg-base-200">
+    <main class="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-4 p-4 sm:p-6">
+      <header class="navbar rounded-box border border-base-300 bg-base-100 px-5 shadow-sm">
+        <div>
+          <h1 class="text-xl font-bold">도시 정책·문화 AI 도우미</h1>
+          <p class="text-xs text-base-content/60">LangGraph + FastAPI</p>
+        </div>
+        <div class="ml-auto flex items-center gap-2">
+          <span id="status" class="badge badge-success badge-sm">준비됨</span>
+          <button id="reset-button" class="btn btn-ghost btn-sm" type="button">
+            새 대화
+          </button>
+        </div>
+      </header>
+
+      <section
+        id="messages"
+        class="h-[62vh] overflow-y-auto rounded-box border border-base-300 bg-base-100 p-4 shadow-sm"
+        aria-live="polite"
+      >
+        <div class="chat chat-start">
+          <div class="chat-header mb-1 text-xs text-base-content/60">AI</div>
+          <div class="chat-bubble bg-base-200 text-base-content">
+            안녕하세요. 도시 정책이나 문화산업에 관해 질문해 보세요.
+          </div>
+        </div>
+      </section>
+
+      <div class="flex flex-wrap gap-2" aria-label="예시 질문">
+        <button class="example-button btn btn-outline btn-sm rounded-full" type="button">
+          서울의 쓰레기 저감 정책은?
+        </button>
+        <button class="example-button btn btn-outline btn-sm rounded-full" type="button">
+          공연산업의 과제는?
+        </button>
+        <button class="example-button btn btn-outline btn-sm rounded-full" type="button">
+          안녕, 넌 누구야?
+        </button>
+      </div>
+
+      <form id="chat-form" class="flex gap-2 rounded-box border border-base-300 bg-base-100 p-3 shadow-sm">
+        <textarea
+          id="message-input"
+          class="textarea min-h-12 flex-1 resize-y border-base-300"
+          rows="1"
+          maxlength="2000"
+          placeholder="메시지를 입력하세요."
+          aria-label="메시지"
+        ></textarea>
+        <button id="send-button" class="btn btn-primary h-auto" type="submit">
+          보내기
+        </button>
+      </form>
+      <p class="text-center text-xs text-base-content/50">
+        AI의 답변에는 오류가 있을 수 있습니다.
+      </p>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

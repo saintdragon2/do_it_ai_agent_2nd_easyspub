@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+:root {
+  font-family: Pretendard, "Noto Sans KR", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#messages {
+  scroll-behavior: smooth;
+}
+
+.chat-bubble {
+  max-width: min(85%, 42rem);
+  overflow-wrap: anywhere;
+  line-height: 1.65;
+}
+
+.markdown-body > :first-child {
+  margin-top: 0;
+}
+
+.markdown-body > :last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body p,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body pre,
+.markdown-body blockquote {
+  margin: 0.65rem 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 1.25rem;
+}
+
+.markdown-body ul {
+  list-style: disc;
+}
+
+.markdown-body ol {
+  list-style: decimal;
+}
+
+.markdown-body code {
+  border-radius: 0.3rem;
+  background: color-mix(in oklab, currentColor 10%, transparent);
+  padding: 0.1rem 0.3rem;
+  font-size: 0.9em;
+}
+
+.markdown-body pre {
+  overflow-x: auto;
+  border-radius: 0.5rem;
+  background: #182230;
+  padding: 0.8rem;
+  color: #f8fafc;
+}
+
+.markdown-body pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.document-content {
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
