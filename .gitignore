@@ -220,3 +220,5 @@ __marimo__/
 .streamlit/secrets.toml
 .playwright-mcp/*.yml
 chap16/sec03/frontend/node_modules/*
+chap16/sec03/data_city/*.pdf
+chap16/sec03/data_culture/*.pdf
