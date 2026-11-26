@@ -1,18 +1,16 @@
-import json
-import logging
-from typing import Literal
-
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
-from langchain_core.documents import Document
-from pydantic import BaseModel, Field
 
+from pydantic import BaseModel, Field
+from typing import Literal
 from chat_graph import ask_chatbot, get_chat_graph, stream_chatbot
 from rag_graph import ask_rag_agent, get_rag_graph, stream_rag_agent
-
-
+from langchain_core.documents import Document
+import json
+import logging
 logger = logging.getLogger(__name__)
+
 app = FastAPI(title="도시 정책·문화 챗봇 API")
 
 app.add_middleware(
@@ -24,7 +22,6 @@ app.add_middleware(
     allow_methods=["GET", "POST"],
     allow_headers=["Content-Type"],
 )
-
 
 class ChatMessage(BaseModel):
     role: Literal["user", "assistant"]
@@ -38,6 +35,7 @@ class ChatRequest(BaseModel):
 class ChatResponse(BaseModel):
     answer: str
     docs: list[Document] = Field(default_factory=list)
+
 
 
 def get_messages(request: ChatRequest) -> list[dict[str, str]]:

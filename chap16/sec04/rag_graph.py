@@ -19,7 +19,7 @@ from retriever import Retriever
 
 load_dotenv()
 
-SEC02_DIR = Path(__file__).resolve().parent.parent / "sec02"
+SEC03_DIR = Path(__file__).resolve().parent.parent / "sec03"
 
 
 def replace_docs(_current, new):
@@ -83,19 +83,19 @@ def get_rag_graph():
         return {"messages": [response]}
 
     retriever_city_policy = Retriever(
-        persist_directory=SEC02_DIR / "chroma_store_city",
+        persist_directory=SEC03_DIR / "chroma_store_city",
         data_files=[
-            SEC02_DIR / "data_city" / "OneNYC_2050_Strategic_Plan.pdf",
-            SEC02_DIR / "data_city" / "2040_seoul_plan.pdf",
+            SEC03_DIR / "data_city" / "OneNYC_2050_Strategic_Plan.pdf",
+            SEC03_DIR / "data_city" / "2040_seoul_plan.pdf",
         ],
         chunk_size=1000,
         chunk_overlap=100,
         k=5,
     )
     retriever_culture = Retriever(
-        persist_directory=SEC02_DIR / "chroma_store_culture",
+        persist_directory=SEC03_DIR / "chroma_store_culture",
         data_files=[
-            SEC02_DIR
+            SEC03_DIR
             / "data_culture"
             / "kdi_kpop_공연산업의_발전_방안_연구.pdf",
         ],

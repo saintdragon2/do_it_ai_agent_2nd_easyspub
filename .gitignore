@@ -222,3 +222,7 @@ __marimo__/
 chap16/sec03/frontend/node_modules/*
 chap16/sec03/data_city/*.pdf
 chap16/sec03/data_culture/*.pdf
+chap16/sec03/chroma_store_city/*
+chap16/sec03/chroma_store_culture/*
+chap16/sec04/frontend/*
+chap16/sec04/frontend/package-lock.json
