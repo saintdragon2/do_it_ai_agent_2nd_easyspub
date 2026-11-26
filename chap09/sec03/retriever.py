@@ -63,7 +63,11 @@ class Retriever:
         original_texts = []
 
         for page_number, page in enumerate(reader.pages):
-            page_content = page.extract_text() or ""
+            with pypdf.apply_configuration(
+                stream_parsing_work_maximum_count=10_000_000,
+            ):
+                page_content = page.extract_text() or ""
+            
             if not page_content.strip():
                 continue
 
