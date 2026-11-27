@@ -226,3 +226,5 @@ chap16/sec03/chroma_store_city/*
 chap16/sec03/chroma_store_culture/*
 chap16/sec04/frontend/*
 chap16/sec04/frontend/package-lock.json
+
+book_pdf/*
