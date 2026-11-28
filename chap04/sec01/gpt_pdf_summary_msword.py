@@ -13,7 +13,7 @@ file = client.files.create(
 )
 
 response = client.responses.create(
-    model="gpt-5.4-nano",               # 비용 절감을 위해 저렴한 모델 사용
+    model="gpt-6-luna",               # 비용 절감을 위해 저렴한 모델 사용
     input=[
         {
             "role": "user",
@@ -41,6 +41,7 @@ print(r)
 
 
 md_output = "./chap04/sec01/output/pdf_summary.md"
+os.makedirs(os.path.dirname(md_output), exist_ok=True)
 with open(md_output, "w", encoding="utf-8") as f:
     f.write(result)
 

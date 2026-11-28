@@ -22,7 +22,7 @@ def easy_judgement(pdf_path: str, md_output: str):
     )
 
     response = client.responses.create(
-        model="gpt-5.4-nano",
+        model="gpt-6-luna",
         input=[
             {
                 "role": "developer", 

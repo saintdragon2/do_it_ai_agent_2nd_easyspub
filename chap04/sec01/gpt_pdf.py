@@ -13,7 +13,7 @@ file = client.files.create(
 )
 
 response = client.responses.create(
-    model="gpt-5.4-nano",               # 비용 절감을 위해 저렴한 모델 사용
+    model="gpt-6-luna",               # 비용 절감을 위해 저렴한 모델 사용
     input=[
         {
             "role": "user",
